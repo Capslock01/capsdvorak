@@ -1,0 +1,83 @@
+!             Normal        Shift       ModeSwitch    MoSw-Shift  AltGr                Shift-AltGr      MoSw-AltGr           MoSw-Shift-AltGr
+
+keycode 13  = 4             dollar      4             dollar      yen                  dollar           yen                  dollar
+keycode 21  = apostrophe    grave       apostrophe    grave       dead_acute           dead_grave       dead_acute           dead_grave
+keycode 34  = bracketleft   braceleft   bracketleft   braceleft   asciicircum          dead_circumflex  asciicircum          dead_circumflex
+keycode 35  = bracketright  braceright  bracketright  braceright  asciitilde           dead_diaeresis   asciitilde           dead_diaeresis
+keycode 49  = at            Greek_pi    at            Greek_pi    onehalf              Greek_pi         onehalf              Greek_pi
+keycode 51  = slash         asterisk    slash         asterisk    backslash            asterisk         backslash            asterisk
+keycode 65  = space         space       space         space       space                space            space                space
+
+!numpad
+keycode 63  = asterisk      asciicircum asterisk      asciicircum asterisk             asciicircum      asterisk             asciicircum
+keycode 79  = 7             s           7             s           7                    s                7                    s
+keycode 80  = 8             parenleft   8             parenleft   8                    parenleft        8                    parenleft
+keycode 81  = 9             parenright  9             parenright  9                    parenright       9                    parenright
+keycode 82  = minus         minus       minus         minus       minus                minus            minus                minus
+keycode 83  = 4             q           4             q           4                    q                4                    q
+keycode 84  = 5             r           5             r           5                    r                5                    r
+keycode 85  = 6             t           6             t           6                    t                6                    t
+keycode 86  = plus          plus        plus          plus        plus                 plus             plus                 plus
+keycode 87  = 1             x           1             x           1                    x                1                    x
+keycode 88  = 2             y           2             y           2                    y                2                    y
+keycode 89  = 3             z           3             z           3                    z                3                    z
+keycode 90  = 0             e           0             e           0                    e                0                    e
+keycode 91  = period        comma       period        comma       period               comma            period               comma
+keycode 104 = KP_Enter      equal       KP_Enter      equal       KP_Enter             equal            KP_Enter             equal
+
+! 13 = 4
+! 21 = `, next to backspace
+! 34 = ao
+! 35 = ~, between ao and enter
+! 51 = ', between a" and enter
+! 65 = space
+
+! Clear capslock, numlock and super
+clear lock
+clear mod2
+clear mod4
+
+! Change Caps_Lock to super
+! Win is also super
+keycode 66  = Super_L
+add mod4    = Super_L
+
+!             Normal        Shift       ModeSwitch    MoSw-Shift  AltGr                Shift-AltGr      MoSw-AltGr           MoSw-Shift-AltGr
+
+keycode  24 = q             Q           q             Q           at                   Greek_OMEGA      at                   Greek_OMEGA
+keycode  25 = comma         semicolon   comma         semicolon   dead_cedilla         dead_ogonek      dead_cedilla         dead_ogonek
+keycode  26 = period        colon       period        colon       periodcentered       notsign          periodcentered       notsign
+keycode  27 = adiaeresis    Adiaeresis  adiaeresis    Adiaeresis  ae                   AE               ae                   AE
+keycode  28 = y             Y           y             Y           leftarrow            leftarrow        leftarrow            leftarrow
+keycode  29 = f             F           f             F           dstroke              ordfeminine      dstroke              ordfeminine
+keycode  30 = j             J           j             J           j                    J                j                    J
+keycode  31 = r             R           r             R           registered           registered       registered           registered
+keycode  32 = m             M           m             M           mu                   masculine        mu                   masculine
+keycode  33 = v             V           v             V           leftdoublequotemark  grave            leftdoublequotemark  grave
+
+!             Normal        Shift       ModeSwitch    MoSw-Shift  AltGr                Shift-AltGr      MoSw-AltGr           MoSw-Shift-AltGr
+
+keycode  38 = a             A           a             A           aring                Aring            aring                Aring
+keycode  39 = o             O           o             O           oe                   OE               oe                   OE
+keycode  40 = e             E           e             E           EuroSign             cent             EuroSign             cent
+keycode  41 = u             U           u             U           downarrow            uparrow          downarrow            uparrow
+keycode  42 = i             I           i             I           rightarrow           idotless         rightarrow           idotless
+keycode  43 = k             K           k             K           section              section          section              section
+keycode  44 = l             L           l             L           lstroke              Lstroke          lstroke              Lstroke
+keycode  45 = t             T           t             T           trademark            trademark        trademark            trademark
+keycode  46 = n             N           n             N           ntilde               Ntilde           ntilde               Ntilde
+keycode  47 = s             S           s             S           scaron               Scaron           scaron               Scaron
+keycode  48 = minus         underscore  minus         underscore  hyphen               macron           hyphen               macron
+
+!             Normal        Shift       ModeSwitch    MoSw-Shift  AltGr                Shift-AltGr      MoSw-AltGr           MoSw-Shift-AltGr
+
+keycode  52 = z             Z           z             Z           ssharp               apostrophe       ssharp               apostrophe
+keycode  53 = x             X           x             X           lstroke              Lstroke          lstroke              Lstroke
+keycode  54 = odiaeresis    Odiaeresis  odiaeresis    Odiaeresis  oslash               Ooblique         oslash               Ooblique
+keycode  55 = d             D           d             D           eth                  ETH              eth                  ETH
+keycode  56 = b             B           b             B           ssharp               apostrophe       ssharp               apostrophe
+keycode  57 = p             P           p             P           paragraph            THORN            paragraph            THORN
+keycode  58 = h             H           h             H           hstroke              Hstroke          hstroke              Hstroke
+keycode  59 = g             G           g             G           eng                  ENG              eng                  ENG
+keycode  60 = c             C           c             C           copyright            copyright        copyright            copyright
+keycode  61 = w             W           w             W           zcaron               Zcaron           zcaron               Zcaron
